@@ -1,0 +1,105 @@
+{
+ "strict_task": {
+  "qwen_none": {
+   "task_correct": 46,
+   "strict": 40,
+   "attack_and_correct": 5,
+   "n": 135
+  },
+  "qwen_def": {
+   "task_correct": 61,
+   "strict": 55,
+   "attack_and_correct": 4,
+   "n": 135
+  },
+  "qwen_shield": {
+   "task_correct": 90,
+   "strict": 81,
+   "attack_and_correct": 0,
+   "n": 135
+  },
+  "llama_none": {
+   "task_correct": 5,
+   "strict": 5,
+   "attack_and_correct": 0,
+   "n": 135
+  },
+  "llama_def": {
+   "task_correct": 0,
+   "strict": 0,
+   "attack_and_correct": 0,
+   "n": 135
+  }
+ },
+ "orig_labels": {
+  "qwen_none": {
+   "stored": 24,
+   "recomputed": 30,
+   "n": 36
+  },
+  "qwen_def": {
+   "stored": 24,
+   "recomputed": 30,
+   "n": 36
+  },
+  "qwen_shield": {
+   "stored": 34,
+   "recomputed": 34,
+   "n": 36
+  },
+  "llama_none": {
+   "stored": 3,
+   "recomputed": 3,
+   "n": 36
+  },
+  "llama_def": {
+   "stored": 0,
+   "recomputed": 0,
+   "n": 36
+  }
+ },
+ "latency": {
+  "qwen": 16.2,
+  "llama": 7.6
+ },
+ "cluster_ci": {
+  "qwen_none": [
+   53.7,
+   79.7
+  ],
+  "qwen_def": [
+   41.5,
+   66.7
+  ],
+  "llama_none": [
+   50.0,
+   74.5
+  ],
+  "llama_def": [
+   44.2,
+   70.8
+  ]
+ },
+ "p2_vs_loose": {
+  "qwen_none": {
+   "p2": 33,
+   "loose": 33,
+   "both": 33
+  },
+  "qwen_def": {
+   "p2": 24,
+   "loose": 24,
+   "both": 24
+  },
+  "llama_none": {
+   "p2": 122,
+   "loose": 122,
+   "both": 122
+  },
+  "llama_def": {
+   "p2": 124,
+   "loose": 124,
+   "both": 124
+  }
+ }
+}

@@ -1,0 +1,20 @@
+{
+ "configs": [
+  "qwen_none",
+  "qwen_def",
+  "qwen_shield",
+  "qwen_forged",
+  "qwen_adaptive",
+  "llama_none",
+  "llama_def",
+  "llama_adaptive",
+  "phi4_none",
+  "phi4_def",
+  "phi4_adaptive"
+ ],
+ "episodes": 1602,
+ "action_calls": 6031,
+ "agree": 6031,
+ "disagree": 0,
+ "violations_py": 1817
+}

@@ -1,0 +1,16 @@
+{
+ "tags": [
+  "qwen_none",
+  "qwen_def",
+  "llama_none",
+  "llama_def"
+ ],
+ "calls": 2790,
+ "median_us": 7.0,
+ "p99_us": 10.1,
+ "max_us": 36.9,
+ "max_prefix_events": 22,
+ "machine": "macOS-15.3.2-arm64-arm-64bit-Mach-O arm64",
+ "python": "3.14.6",
+ "episode_wall_s_median": 10.9
+}

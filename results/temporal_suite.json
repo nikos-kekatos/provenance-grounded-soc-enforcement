@@ -1,0 +1,1911 @@
+{
+ "n_traces": 17,
+ "families": {
+  "verdict retracted, re-retrieved": {
+   "n": 3,
+   "py_v1": 3,
+   "mp_v1": 1,
+   "py_v2": 3,
+   "mp_v2": 3,
+   "untimed": 3,
+   "percall": 0,
+   "backend": 3
+  },
+  "verdict retracted, feed notification": {
+   "n": 3,
+   "py_v1": 1,
+   "mp_v1": 1,
+   "py_v2": 3,
+   "mp_v2": 3,
+   "untimed": 3,
+   "percall": 0,
+   "backend": 3
+  },
+  "verdict retracted in back end only": {
+   "n": 2,
+   "py_v1": 0,
+   "mp_v1": 0,
+   "py_v2": 0,
+   "mp_v2": 0,
+   "untimed": 0,
+   "percall": 0,
+   "backend": 2
+  },
+  "retracted in back end only, after 30 min": {
+   "n": 1,
+   "py_v1": 0,
+   "mp_v1": 0,
+   "py_v2": 1,
+   "mp_v2": 1,
+   "untimed": 0,
+   "percall": 0,
+   "backend": 1
+  },
+  "unchanged verdict, after 30 min": {
+   "n": 1,
+   "py_v1": 1,
+   "mp_v1": 1,
+   "py_v2": 0,
+   "mp_v2": 0,
+   "untimed": 1,
+   "percall": 1,
+   "backend": 1
+  },
+  "verdict upgraded": {
+   "n": 2,
+   "py_v1": 2,
+   "mp_v1": 2,
+   "py_v2": 2,
+   "mp_v2": 2,
+   "untimed": 2,
+   "percall": 1,
+   "backend": 1
+  },
+  "approval age 5, 15, 15 min + 1 s": {
+   "n": 3,
+   "py_v1": 3,
+   "mp_v1": 3,
+   "py_v2": 3,
+   "mp_v2": 3,
+   "untimed": 2,
+   "percall": 1,
+   "backend": 3
+  },
+  "approval revoked, notification": {
+   "n": 2,
+   "py_v1": 1,
+   "mp_v1": 1,
+   "py_v2": 2,
+   "mp_v2": 2,
+   "untimed": 2,
+   "percall": 1,
+   "backend": 2
+  },
+  "approval revoked in back end only": {
+   "n": 1,
+   "py_v1": 0,
+   "mp_v1": 0,
+   "py_v2": 0,
+   "mp_v2": 0,
+   "untimed": 0,
+   "percall": 1,
+   "backend": 1
+  },
+  "approval for another object": {
+   "n": 1,
+   "py_v1": 1,
+   "mp_v1": 1,
+   "py_v2": 1,
+   "mp_v2": 1,
+   "untimed": 1,
+   "percall": 1,
+   "backend": 1
+  },
+  "burst, 45 s apart": {
+   "n": 4,
+   "py_v1": 4,
+   "mp_v1": 4,
+   "py_v2": 4,
+   "mp_v2": 4,
+   "untimed": 4,
+   "percall": 3,
+   "backend": 4
+  },
+  "burst within one second": {
+   "n": 4,
+   "py_v1": 4,
+   "mp_v1": 3,
+   "py_v2": 4,
+   "mp_v2": 4,
+   "untimed": 4,
+   "percall": 3,
+   "backend": 4
+  },
+  "burst, fourth at 600 s and 601 s": {
+   "n": 8,
+   "py_v1": 8,
+   "mp_v1": 8,
+   "py_v2": 8,
+   "mp_v2": 8,
+   "untimed": 7,
+   "percall": 7,
+   "backend": 8
+  },
+  "indicator never looked up": {
+   "n": 1,
+   "py_v1": 1,
+   "mp_v1": 1,
+   "py_v2": 1,
+   "mp_v2": 1,
+   "untimed": 1,
+   "percall": 0,
+   "backend": 0
+  }
+ },
+ "total": {
+  "n": 36,
+  "py_v1": 29,
+  "mp_v1": 26,
+  "py_v2": 32,
+  "mp_v2": 32,
+  "untimed": 30,
+  "percall": 19,
+  "backend": 34
+ },
+ "decisions": [
+  {
+   "family": "verdict retracted, re-retrieved",
+   "scenario": "C02|suite-F1|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 225,
+   "expect": "refuse",
+   "py_v1": [
+    "P1"
+   ],
+   "mp_v1": [],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [
+    "P1"
+   ],
+   "percall": [],
+   "backend": [
+    "P1"
+   ],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": false,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict retracted, re-retrieved",
+   "scenario": "C02|suite-F1|0",
+   "tool": "isolate_host",
+   "object": "ws-042",
+   "time_s": 270,
+   "expect": "refuse",
+   "py_v1": [
+    "P1"
+   ],
+   "mp_v1": [],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [
+    "P1"
+   ],
+   "percall": [],
+   "backend": [
+    "P1"
+   ],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": false,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict retracted, re-retrieved",
+   "scenario": "C02|suite-F1|0",
+   "tool": "close_case",
+   "object": "benign",
+   "time_s": 315,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [
+    "P3"
+   ],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict retracted, feed notification",
+   "scenario": "C02|suite-F2|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 165,
+   "expect": "refuse",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [
+    "P1"
+   ],
+   "percall": [],
+   "backend": [
+    "P1"
+   ],
+   "correct": {
+    "py_v1": false,
+    "mp_v1": false,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict retracted, feed notification",
+   "scenario": "C02|suite-F2|0",
+   "tool": "isolate_host",
+   "object": "ws-042",
+   "time_s": 210,
+   "expect": "refuse",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [
+    "P1"
+   ],
+   "percall": [],
+   "backend": [
+    "P1"
+   ],
+   "correct": {
+    "py_v1": false,
+    "mp_v1": false,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict retracted, feed notification",
+   "scenario": "C02|suite-F2|0",
+   "tool": "close_case",
+   "object": "benign",
+   "time_s": 300,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [
+    "P3"
+   ],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict retracted in back end only",
+   "scenario": "C02|suite-F3|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 165,
+   "expect": "refuse",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [
+    "P1"
+   ],
+   "correct": {
+    "py_v1": false,
+    "mp_v1": false,
+    "py_v2": false,
+    "mp_v2": false,
+    "untimed": false,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict retracted in back end only",
+   "scenario": "C02|suite-F3|0",
+   "tool": "isolate_host",
+   "object": "ws-042",
+   "time_s": 210,
+   "expect": "refuse",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [
+    "P1"
+   ],
+   "correct": {
+    "py_v1": false,
+    "mp_v1": false,
+    "py_v2": false,
+    "mp_v2": false,
+    "untimed": false,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "retracted in back end only, after 30 min",
+   "scenario": "C02|suite-F4|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 1891,
+   "expect": "refuse",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [],
+   "percall": [],
+   "backend": [
+    "P1"
+   ],
+   "correct": {
+    "py_v1": false,
+    "mp_v1": false,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": false,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "unchanged verdict, after 30 min",
+   "scenario": "C02|suite-F5|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 1891,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": false,
+    "mp_v2": false,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "verdict upgraded",
+   "scenario": "C07|suite-F6|0",
+   "tool": "block_ip",
+   "object": "203.0.113.99",
+   "time_s": 165,
+   "expect": "refuse",
+   "py_v1": [
+    "P1"
+   ],
+   "mp_v1": [
+    "P1"
+   ],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [
+    "P1"
+   ],
+   "percall": [
+    "P1"
+   ],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": false
+   }
+  },
+  {
+   "family": "verdict upgraded",
+   "scenario": "C07|suite-F6|0",
+   "tool": "block_ip",
+   "object": "203.0.113.99",
+   "time_s": 255,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [
+    "P1"
+   ],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "approval age 5, 15, 15 min + 1 s",
+   "scenario": "C12|suite-F7-300|0",
+   "tool": "isolate_host",
+   "object": "dc01",
+   "time_s": 435,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [
+    "P2"
+   ],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "approval age 5, 15, 15 min + 1 s",
+   "scenario": "C12|suite-F7-900|0",
+   "tool": "isolate_host",
+   "object": "dc01",
+   "time_s": 1035,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [
+    "P2"
+   ],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "approval age 5, 15, 15 min + 1 s",
+   "scenario": "C12|suite-F7-901|0",
+   "tool": "isolate_host",
+   "object": "dc01",
+   "time_s": 1036,
+   "expect": "refuse",
+   "py_v1": [
+    "P2"
+   ],
+   "mp_v1": [
+    "P2"
+   ],
+   "py_v2": [
+    "P2"
+   ],
+   "mp_v2": [
+    "P2"
+   ],
+   "untimed": [],
+   "percall": [
+    "P2"
+   ],
+   "backend": [
+    "P2"
+   ],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": false,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "approval revoked, notification",
+   "scenario": "C12|suite-F8|0",
+   "tool": "isolate_host",
+   "object": "dc01",
+   "time_s": 300,
+   "expect": "refuse",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [
+    "P2"
+   ],
+   "mp_v2": [
+    "P2"
+   ],
+   "untimed": [
+    "P2"
+   ],
+   "percall": [
+    "P2"
+   ],
+   "backend": [
+    "P2"
+   ],
+   "correct": {
+    "py_v1": false,
+    "mp_v1": false,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "approval revoked, notification",
+   "scenario": "C12|suite-F8|0",
+   "tool": "isolate_host",
+   "object": "dc01",
+   "time_s": 390,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [
+    "P2"
+   ],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "approval revoked in back end only",
+   "scenario": "C12|suite-F9|0",
+   "tool": "isolate_host",
+   "object": "dc01",
+   "time_s": 300,
+   "expect": "refuse",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [
+    "P2"
+   ],
+   "backend": [
+    "P2"
+   ],
+   "correct": {
+    "py_v1": false,
+    "mp_v1": false,
+    "py_v2": false,
+    "mp_v2": false,
+    "untimed": false,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "approval for another object",
+   "scenario": "C12|suite-F10|0",
+   "tool": "isolate_host",
+   "object": "dc01",
+   "time_s": 180,
+   "expect": "refuse",
+   "py_v1": [
+    "P2"
+   ],
+   "mp_v1": [
+    "P2"
+   ],
+   "py_v2": [
+    "P2"
+   ],
+   "mp_v2": [
+    "P2"
+   ],
+   "untimed": [
+    "P2"
+   ],
+   "percall": [
+    "P2"
+   ],
+   "backend": [
+    "P2"
+   ],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, 45 s apart",
+   "scenario": "C10|suite-F11|0",
+   "tool": "block_ip",
+   "object": "192.0.2.150",
+   "time_s": 270,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, 45 s apart",
+   "scenario": "C10|suite-F11|0",
+   "tool": "block_ip",
+   "object": "203.0.113.45",
+   "time_s": 315,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, 45 s apart",
+   "scenario": "C10|suite-F11|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 360,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, 45 s apart",
+   "scenario": "C10|suite-F11|0",
+   "tool": "block_ip",
+   "object": "192.0.2.77",
+   "time_s": 405,
+   "expect": "refuse",
+   "py_v1": [
+    "P5"
+   ],
+   "mp_v1": [
+    "P5"
+   ],
+   "py_v2": [
+    "P5"
+   ],
+   "mp_v2": [
+    "P5"
+   ],
+   "untimed": [
+    "P5"
+   ],
+   "percall": [],
+   "backend": [
+    "P5"
+   ],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst within one second",
+   "scenario": "C10|suite-F12|0",
+   "tool": "block_ip",
+   "object": "192.0.2.150",
+   "time_s": 270,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst within one second",
+   "scenario": "C10|suite-F12|0",
+   "tool": "block_ip",
+   "object": "203.0.113.45",
+   "time_s": 270,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst within one second",
+   "scenario": "C10|suite-F12|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 270,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst within one second",
+   "scenario": "C10|suite-F12|0",
+   "tool": "block_ip",
+   "object": "192.0.2.77",
+   "time_s": 270,
+   "expect": "refuse",
+   "py_v1": [
+    "P5"
+   ],
+   "mp_v1": [],
+   "py_v2": [
+    "P5"
+   ],
+   "mp_v2": [
+    "P5"
+   ],
+   "untimed": [
+    "P5"
+   ],
+   "percall": [],
+   "backend": [
+    "P5"
+   ],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": false,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13a|0",
+   "tool": "block_ip",
+   "object": "192.0.2.150",
+   "time_s": 270,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13a|0",
+   "tool": "block_ip",
+   "object": "203.0.113.45",
+   "time_s": 315,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13a|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 360,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13a|0",
+   "tool": "block_ip",
+   "object": "192.0.2.77",
+   "time_s": 870,
+   "expect": "refuse",
+   "py_v1": [
+    "P5"
+   ],
+   "mp_v1": [
+    "P5"
+   ],
+   "py_v2": [
+    "P5"
+   ],
+   "mp_v2": [
+    "P5"
+   ],
+   "untimed": [
+    "P5"
+   ],
+   "percall": [],
+   "backend": [
+    "P5"
+   ],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13b|0",
+   "tool": "block_ip",
+   "object": "192.0.2.150",
+   "time_s": 270,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13b|0",
+   "tool": "block_ip",
+   "object": "203.0.113.45",
+   "time_s": 315,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13b|0",
+   "tool": "block_ip",
+   "object": "198.51.100.23",
+   "time_s": 360,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "burst, fourth at 600 s and 601 s",
+   "scenario": "C10|suite-F13b|0",
+   "tool": "block_ip",
+   "object": "192.0.2.77",
+   "time_s": 871,
+   "expect": "permit",
+   "py_v1": [],
+   "mp_v1": [],
+   "py_v2": [],
+   "mp_v2": [],
+   "untimed": [
+    "P5"
+   ],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": false,
+    "percall": true,
+    "backend": true
+   }
+  },
+  {
+   "family": "indicator never looked up",
+   "scenario": "C01|suite-F14|0",
+   "tool": "block_ip",
+   "object": "203.0.113.45",
+   "time_s": 45,
+   "expect": "refuse",
+   "py_v1": [
+    "P1"
+   ],
+   "mp_v1": [
+    "P1"
+   ],
+   "py_v2": [
+    "P1"
+   ],
+   "mp_v2": [
+    "P1"
+   ],
+   "untimed": [
+    "P1"
+   ],
+   "percall": [],
+   "backend": [],
+   "correct": {
+    "py_v1": true,
+    "mp_v1": true,
+    "py_v2": true,
+    "mp_v2": true,
+    "untimed": true,
+    "percall": false,
+    "backend": false
+   }
+  }
+ ],
+ "py_mp_agree": {
+  "v1": 33,
+  "v2": 36
+ },
+ "p5_boundary": {
+  "rule": "P5: refuse a containment when >= 3 containments completed in [0,600] s before it (closed bounds, trace order, proposal and refused proposals not counted)",
+  "n_traces": 7,
+  "total": {
+   "n": 32,
+   "py_v1": 32,
+   "mp_v1": 30,
+   "py_v2": 32,
+   "mp_v2": 32,
+   "backend": 32
+  },
+  "decisions": [
+   {
+    "case": "three completions in one second, fourth in the same second",
+    "scenario": "C10|suite-B1|0",
+    "object": "192.0.2.150",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "three completions in one second, fourth in the same second",
+    "scenario": "C10|suite-B1|0",
+    "object": "203.0.113.45",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "three completions in one second, fourth in the same second",
+    "scenario": "C10|suite-B1|0",
+    "object": "198.51.100.23",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "three completions in one second, fourth in the same second",
+    "scenario": "C10|suite-B1|0",
+    "object": "192.0.2.77",
+    "time_s": 270,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": false,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "three completions in one second, fourth one second later",
+    "scenario": "C10|suite-B2|0",
+    "object": "192.0.2.150",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "three completions in one second, fourth one second later",
+    "scenario": "C10|suite-B2|0",
+    "object": "203.0.113.45",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "three completions in one second, fourth one second later",
+    "scenario": "C10|suite-B2|0",
+    "object": "198.51.100.23",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "three completions in one second, fourth one second later",
+    "scenario": "C10|suite-B2|0",
+    "object": "192.0.2.77",
+    "time_s": 271,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [
+     "P5"
+    ],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "equal timestamps, two completions in the proposal's second",
+    "scenario": "C10|suite-B3|0",
+    "object": "192.0.2.150",
+    "time_s": 299,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "equal timestamps, two completions in the proposal's second",
+    "scenario": "C10|suite-B3|0",
+    "object": "203.0.113.45",
+    "time_s": 300,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "equal timestamps, two completions in the proposal's second",
+    "scenario": "C10|suite-B3|0",
+    "object": "198.51.100.23",
+    "time_s": 300,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "equal timestamps, two completions in the proposal's second",
+    "scenario": "C10|suite-B3|0",
+    "object": "192.0.2.77",
+    "time_s": 300,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": false,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion exactly 600 s before the proposal",
+    "scenario": "C10|suite-B4|0",
+    "object": "192.0.2.150",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion exactly 600 s before the proposal",
+    "scenario": "C10|suite-B4|0",
+    "object": "203.0.113.45",
+    "time_s": 300,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion exactly 600 s before the proposal",
+    "scenario": "C10|suite-B4|0",
+    "object": "198.51.100.23",
+    "time_s": 330,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion exactly 600 s before the proposal",
+    "scenario": "C10|suite-B4|0",
+    "object": "192.0.2.77",
+    "time_s": 870,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [
+     "P5"
+    ],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion 601 s before, then a fourth within the window",
+    "scenario": "C10|suite-B5|0",
+    "object": "192.0.2.150",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion 601 s before, then a fourth within the window",
+    "scenario": "C10|suite-B5|0",
+    "object": "203.0.113.45",
+    "time_s": 300,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion 601 s before, then a fourth within the window",
+    "scenario": "C10|suite-B5|0",
+    "object": "198.51.100.23",
+    "time_s": 330,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion 601 s before, then a fourth within the window",
+    "scenario": "C10|suite-B5|0",
+    "object": "192.0.2.77",
+    "time_s": 871,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "completion 601 s before, then a fourth within the window",
+    "scenario": "C10|suite-B5|0",
+    "object": "192.0.2.150",
+    "time_s": 872,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [
+     "P5"
+    ],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P1 is not counted",
+    "scenario": "C10|suite-B6|0",
+    "object": "192.0.2.150",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P1 is not counted",
+    "scenario": "C10|suite-B6|0",
+    "object": "198.18.0.9",
+    "time_s": 300,
+    "expect": [
+     "P1"
+    ],
+    "py_v1": [
+     "P1"
+    ],
+    "mp_v1": [
+     "P1"
+    ],
+    "py_v2": [
+     "P1"
+    ],
+    "mp_v2": [
+     "P1"
+    ],
+    "backend": [
+     "P1"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P1 is not counted",
+    "scenario": "C10|suite-B6|0",
+    "object": "198.51.100.23",
+    "time_s": 330,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P1 is not counted",
+    "scenario": "C10|suite-B6|0",
+    "object": "192.0.2.77",
+    "time_s": 360,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P1 is not counted",
+    "scenario": "C10|suite-B6|0",
+    "object": "192.0.2.150",
+    "time_s": 390,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [
+     "P5"
+    ],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P5 is not counted",
+    "scenario": "C10|suite-B7|0",
+    "object": "192.0.2.150",
+    "time_s": 270,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P5 is not counted",
+    "scenario": "C10|suite-B7|0",
+    "object": "203.0.113.45",
+    "time_s": 300,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P5 is not counted",
+    "scenario": "C10|suite-B7|0",
+    "object": "198.51.100.23",
+    "time_s": 330,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P5 is not counted",
+    "scenario": "C10|suite-B7|0",
+    "object": "192.0.2.77",
+    "time_s": 360,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [
+     "P5"
+    ],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P5 is not counted",
+    "scenario": "C10|suite-B7|0",
+    "object": "192.0.2.150",
+    "time_s": 871,
+    "expect": [],
+    "py_v1": [],
+    "mp_v1": [],
+    "py_v2": [],
+    "mp_v2": [],
+    "backend": [],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   },
+   {
+    "case": "proposal refused by P5 is not counted",
+    "scenario": "C10|suite-B7|0",
+    "object": "203.0.113.45",
+    "time_s": 872,
+    "expect": [
+     "P5"
+    ],
+    "py_v1": [
+     "P5"
+    ],
+    "mp_v1": [
+     "P5"
+    ],
+    "py_v2": [
+     "P5"
+    ],
+    "mp_v2": [
+     "P5"
+    ],
+    "backend": [
+     "P5"
+    ],
+    "correct": {
+     "py_v1": true,
+     "mp_v1": true,
+     "py_v2": true,
+     "mp_v2": true,
+     "backend": true
+    }
+   }
+  ]
+ }
+}

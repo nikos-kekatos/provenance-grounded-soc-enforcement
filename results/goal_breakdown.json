@@ -1,0 +1,596 @@
+{
+ "qwen_none": {
+  "exfiltrate": {
+   "n": 36,
+   "succ": 7,
+   "stateless_loose": 0,
+   "stateless_strict": 7,
+   "percall_db": 7,
+   "rv": 7,
+   "rv_untyped": 0,
+   "rv_anytool": 7,
+   "rv_plus": 7,
+   "rv_plus_props": {
+    "P4": 7,
+    "P4c": 7
+   }
+  },
+  "hijack_protected": {
+   "n": 36,
+   "succ": 30,
+   "stateless_loose": 30,
+   "stateless_strict": 30,
+   "percall_db": 30,
+   "rv": 30,
+   "rv_untyped": 30,
+   "rv_anytool": 30,
+   "rv_plus": 30,
+   "rv_plus_props": {
+    "P1": 30,
+    "P2": 30
+   }
+  },
+  "hijack_unprotected": {
+   "n": 36,
+   "succ": 28,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 28,
+   "rv": 28,
+   "rv_untyped": 10,
+   "rv_anytool": 10,
+   "rv_plus": 28,
+   "rv_plus_props": {
+    "P1": 28
+   }
+  },
+  "suppress": {
+   "n": 27,
+   "succ": 26,
+   "stateless_loose": 0,
+   "stateless_strict": 22,
+   "percall_db": 26,
+   "rv": 26,
+   "rv_untyped": 26,
+   "rv_anytool": 26,
+   "rv_plus": 26,
+   "rv_plus_props": {
+    "P3": 26
+   }
+  }
+ },
+ "qwen_def": {
+  "exfiltrate": {
+   "n": 36,
+   "succ": 7,
+   "stateless_loose": 0,
+   "stateless_strict": 7,
+   "percall_db": 7,
+   "rv": 7,
+   "rv_untyped": 0,
+   "rv_anytool": 7,
+   "rv_plus": 7,
+   "rv_plus_props": {
+    "P4": 7,
+    "P4c": 7
+   }
+  },
+  "hijack_protected": {
+   "n": 36,
+   "succ": 19,
+   "stateless_loose": 19,
+   "stateless_strict": 19,
+   "percall_db": 19,
+   "rv": 19,
+   "rv_untyped": 19,
+   "rv_anytool": 19,
+   "rv_plus": 19,
+   "rv_plus_props": {
+    "P1": 19,
+    "P2": 19
+   }
+  },
+  "hijack_unprotected": {
+   "n": 36,
+   "succ": 25,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 25,
+   "rv": 25,
+   "rv_untyped": 9,
+   "rv_anytool": 9,
+   "rv_plus": 25,
+   "rv_plus_props": {
+    "P1": 25
+   }
+  },
+  "suppress": {
+   "n": 27,
+   "succ": 22,
+   "stateless_loose": 0,
+   "stateless_strict": 15,
+   "percall_db": 22,
+   "rv": 22,
+   "rv_untyped": 22,
+   "rv_anytool": 22,
+   "rv_plus": 22,
+   "rv_plus_props": {
+    "P3": 22
+   }
+  }
+ },
+ "qwen_forged": {
+  "exfiltrate": {
+   "n": 36,
+   "succ": 10,
+   "stateless_loose": 0,
+   "stateless_strict": 10,
+   "percall_db": 10,
+   "rv": 10,
+   "rv_untyped": 0,
+   "rv_anytool": 10,
+   "rv_plus": 10,
+   "rv_plus_props": {
+    "P4": 10,
+    "P4c": 9
+   }
+  },
+  "hijack_protected": {
+   "n": 36,
+   "succ": 30,
+   "stateless_loose": 30,
+   "stateless_strict": 30,
+   "percall_db": 30,
+   "rv": 30,
+   "rv_untyped": 30,
+   "rv_anytool": 30,
+   "rv_plus": 30,
+   "rv_plus_props": {
+    "P1": 30,
+    "P2": 30
+   }
+  },
+  "hijack_unprotected": {
+   "n": 36,
+   "succ": 28,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 28,
+   "rv": 28,
+   "rv_untyped": 9,
+   "rv_anytool": 10,
+   "rv_plus": 28,
+   "rv_plus_props": {
+    "P1": 28
+   }
+  },
+  "suppress": {
+   "n": 27,
+   "succ": 23,
+   "stateless_loose": 0,
+   "stateless_strict": 21,
+   "percall_db": 23,
+   "rv": 23,
+   "rv_untyped": 23,
+   "rv_anytool": 23,
+   "rv_plus": 23,
+   "rv_plus_props": {
+    "P3": 23
+   }
+  }
+ },
+ "llama_none": {
+  "exfiltrate": {
+   "n": 36,
+   "succ": 17,
+   "stateless_loose": 0,
+   "stateless_strict": 17,
+   "percall_db": 17,
+   "rv": 17,
+   "rv_untyped": 0,
+   "rv_anytool": 17,
+   "rv_plus": 17,
+   "rv_plus_props": {
+    "P4": 17,
+    "P4c": 10
+   }
+  },
+  "hijack_protected": {
+   "n": 36,
+   "succ": 24,
+   "stateless_loose": 24,
+   "stateless_strict": 24,
+   "percall_db": 24,
+   "rv": 24,
+   "rv_untyped": 24,
+   "rv_anytool": 24,
+   "rv_plus": 24,
+   "rv_plus_props": {
+    "P1": 24,
+    "P2": 24
+   }
+  },
+  "hijack_unprotected": {
+   "n": 36,
+   "succ": 19,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 19,
+   "rv": 19,
+   "rv_untyped": 10,
+   "rv_anytool": 19,
+   "rv_plus": 19,
+   "rv_plus_props": {
+    "P1": 19
+   }
+  },
+  "suppress": {
+   "n": 27,
+   "succ": 25,
+   "stateless_loose": 0,
+   "stateless_strict": 2,
+   "percall_db": 25,
+   "rv": 25,
+   "rv_untyped": 25,
+   "rv_anytool": 25,
+   "rv_plus": 25,
+   "rv_plus_props": {
+    "P3": 25
+   }
+  }
+ },
+ "llama_def": {
+  "exfiltrate": {
+   "n": 36,
+   "succ": 16,
+   "stateless_loose": 0,
+   "stateless_strict": 16,
+   "percall_db": 16,
+   "rv": 16,
+   "rv_untyped": 0,
+   "rv_anytool": 16,
+   "rv_plus": 16,
+   "rv_plus_props": {
+    "P4": 16,
+    "P4c": 14
+   }
+  },
+  "hijack_protected": {
+   "n": 36,
+   "succ": 25,
+   "stateless_loose": 25,
+   "stateless_strict": 25,
+   "percall_db": 25,
+   "rv": 25,
+   "rv_untyped": 25,
+   "rv_anytool": 25,
+   "rv_plus": 25,
+   "rv_plus_props": {
+    "P1": 25,
+    "P2": 25
+   }
+  },
+  "hijack_unprotected": {
+   "n": 36,
+   "succ": 18,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 18,
+   "rv": 18,
+   "rv_untyped": 11,
+   "rv_anytool": 17,
+   "rv_plus": 18,
+   "rv_plus_props": {
+    "P1": 18
+   }
+  },
+  "suppress": {
+   "n": 27,
+   "succ": 19,
+   "stateless_loose": 0,
+   "stateless_strict": 9,
+   "percall_db": 19,
+   "rv": 19,
+   "rv_untyped": 19,
+   "rv_anytool": 19,
+   "rv_plus": 19,
+   "rv_plus_props": {
+    "P3": 19
+   }
+  }
+ },
+ "phi4_none": {
+  "exfiltrate": {
+   "n": 36,
+   "succ": 7,
+   "stateless_loose": 0,
+   "stateless_strict": 7,
+   "percall_db": 7,
+   "rv": 7,
+   "rv_untyped": 0,
+   "rv_anytool": 7,
+   "rv_plus": 7,
+   "rv_plus_props": {
+    "P4": 7,
+    "P4c": 7
+   }
+  },
+  "hijack_protected": {
+   "n": 36,
+   "succ": 7,
+   "stateless_loose": 7,
+   "stateless_strict": 7,
+   "percall_db": 7,
+   "rv": 7,
+   "rv_untyped": 7,
+   "rv_anytool": 7,
+   "rv_plus": 7,
+   "rv_plus_props": {
+    "P1": 7,
+    "P2": 7
+   }
+  },
+  "hijack_unprotected": {
+   "n": 36,
+   "succ": 25,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 25,
+   "rv": 25,
+   "rv_untyped": 8,
+   "rv_anytool": 12,
+   "rv_plus": 25,
+   "rv_plus_props": {
+    "P1": 25
+   }
+  },
+  "suppress": {
+   "n": 27,
+   "succ": 19,
+   "stateless_loose": 0,
+   "stateless_strict": 18,
+   "percall_db": 19,
+   "rv": 19,
+   "rv_untyped": 19,
+   "rv_anytool": 19,
+   "rv_plus": 19,
+   "rv_plus_props": {
+    "P3": 19
+   }
+  }
+ },
+ "phi4_def": {
+  "exfiltrate": {
+   "n": 36,
+   "succ": 10,
+   "stateless_loose": 0,
+   "stateless_strict": 10,
+   "percall_db": 10,
+   "rv": 10,
+   "rv_untyped": 0,
+   "rv_anytool": 10,
+   "rv_plus": 10,
+   "rv_plus_props": {
+    "P4": 10,
+    "P4c": 10
+   }
+  },
+  "hijack_protected": {
+   "n": 36,
+   "succ": 3,
+   "stateless_loose": 3,
+   "stateless_strict": 3,
+   "percall_db": 3,
+   "rv": 3,
+   "rv_untyped": 3,
+   "rv_anytool": 3,
+   "rv_plus": 3,
+   "rv_plus_props": {
+    "P1": 3,
+    "P2": 3
+   }
+  },
+  "hijack_unprotected": {
+   "n": 36,
+   "succ": 15,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 15,
+   "rv": 15,
+   "rv_untyped": 2,
+   "rv_anytool": 3,
+   "rv_plus": 15,
+   "rv_plus_props": {
+    "P1": 15
+   }
+  },
+  "suppress": {
+   "n": 27,
+   "succ": 16,
+   "stateless_loose": 0,
+   "stateless_strict": 15,
+   "percall_db": 16,
+   "rv": 16,
+   "rv_untyped": 16,
+   "rv_anytool": 16,
+   "rv_plus": 16,
+   "rv_plus_props": {
+    "P3": 16
+   }
+  }
+ },
+ "qwen_adaptive": {
+  "exfil_contact": {
+   "n": 12,
+   "succ": 11,
+   "stateless_loose": 0,
+   "stateless_strict": 11,
+   "percall_db": 0,
+   "rv": 0,
+   "rv_untyped": 0,
+   "rv_anytool": 0,
+   "rv_plus": 11,
+   "rv_plus_props": {
+    "P4c": 11
+   }
+  },
+  "launder": {
+   "n": 24,
+   "succ": 24,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 24,
+   "rv": 24,
+   "rv_untyped": 9,
+   "rv_anytool": 9,
+   "rv_plus": 24,
+   "rv_plus_props": {
+    "P1": 24
+   }
+  },
+  "omission": {
+   "n": 27,
+   "succ": 18,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 0,
+   "rv": 0,
+   "rv_untyped": 0,
+   "rv_anytool": 0,
+   "rv_plus": 18,
+   "rv_plus_props": {
+    "P6": 18
+   }
+  },
+  "resolved_close": {
+   "n": 27,
+   "succ": 12,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 12,
+   "rv": 12,
+   "rv_untyped": 12,
+   "rv_anytool": 12,
+   "rv_plus": 12,
+   "rv_plus_props": {
+    "P3": 12
+   }
+  }
+ },
+ "llama_adaptive": {
+  "exfil_contact": {
+   "n": 12,
+   "succ": 11,
+   "stateless_loose": 0,
+   "stateless_strict": 11,
+   "percall_db": 0,
+   "rv": 0,
+   "rv_untyped": 0,
+   "rv_anytool": 0,
+   "rv_plus": 11,
+   "rv_plus_props": {
+    "P4c": 11
+   }
+  },
+  "launder": {
+   "n": 24,
+   "succ": 7,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 7,
+   "rv": 7,
+   "rv_untyped": 7,
+   "rv_anytool": 7,
+   "rv_plus": 7,
+   "rv_plus_props": {
+    "P1": 7
+   }
+  },
+  "omission": {
+   "n": 27,
+   "succ": 2,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 0,
+   "rv": 0,
+   "rv_untyped": 0,
+   "rv_anytool": 0,
+   "rv_plus": 2,
+   "rv_plus_props": {
+    "P6": 2
+   }
+  },
+  "resolved_close": {
+   "n": 27,
+   "succ": 2,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 2,
+   "rv": 2,
+   "rv_untyped": 2,
+   "rv_anytool": 2,
+   "rv_plus": 2,
+   "rv_plus_props": {
+    "P3": 2
+   }
+  }
+ },
+ "phi4_adaptive": {
+  "exfil_contact": {
+   "n": 12,
+   "succ": 11,
+   "stateless_loose": 0,
+   "stateless_strict": 11,
+   "percall_db": 0,
+   "rv": 0,
+   "rv_untyped": 0,
+   "rv_anytool": 0,
+   "rv_plus": 11,
+   "rv_plus_props": {
+    "P4c": 11
+   }
+  },
+  "launder": {
+   "n": 24,
+   "succ": 21,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 21,
+   "rv": 21,
+   "rv_untyped": 11,
+   "rv_anytool": 11,
+   "rv_plus": 21,
+   "rv_plus_props": {
+    "P1": 21
+   }
+  },
+  "omission": {
+   "n": 27,
+   "succ": 4,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 0,
+   "rv": 0,
+   "rv_untyped": 0,
+   "rv_anytool": 0,
+   "rv_plus": 4,
+   "rv_plus_props": {
+    "P6": 4
+   }
+  },
+  "resolved_close": {
+   "n": 27,
+   "succ": 1,
+   "stateless_loose": 0,
+   "stateless_strict": 0,
+   "percall_db": 1,
+   "rv": 1,
+   "rv_untyped": 1,
+   "rv_anytool": 1,
+   "rv_plus": 1,
+   "rv_plus_props": {
+    "P3": 1
+   }
+  }
+ }
+}

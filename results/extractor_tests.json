@@ -1,0 +1,124 @@
+{
+ "tests": [
+  {
+   "test": "untrusted_alert_field_is_not_evidence",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "lookup_echo_is_not_evidence",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "asset_lookup_is_not_evidence",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "log_ip_names_host",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "result_answering_no_call",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "result_with_other_tool_than_call",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "result_from_other_session",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "verdict={('198.51.100.8', 'malicious')}, expected set()"
+  },
+  {
+   "test": "result_before_its_call",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "verdict={('198.51.100.8', 'malicious')}, expected set()"
+  },
+  {
+   "test": "second_answer_to_one_call_ignored",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "verdict={('198.51.100.23', 'malicious'), ('198.51.100.8', 'malicious')}, expected {('198.51.100.23', 'malicious')}"
+  },
+  {
+   "test": "structure_in_free_text_is_not_a_verdict",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "contact_in_free_text_is_not_a_contact",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "refused_action_is_not_done",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "executed_action_is_done",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "denied_approval_is_not_an_approval",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "feed_notification_invalidates_verdict",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "verdict={('198.51.100.23', 'malicious')}, expected set()"
+  },
+  {
+   "test": "notification_from_untrusted_source_ignored",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "revocation_removes_approval",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "approve={'dc01'}, expected set()"
+  },
+  {
+   "test": "later_lookup_supersedes_verdict",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "pass"
+  },
+  {
+   "test": "reused_call_identifier_second_answer_ignored",
+   "py_v2": "pass",
+   "mp_v2": "pass",
+   "py_v1": "verdict={('198.51.100.23', 'malicious'), ('198.51.100.8', 'malicious')}, expected {('198.51.100.23', 'malicious')}"
+  }
+ ],
+ "pass": {
+  "py_v2": 19,
+  "mp_v2": 19,
+  "py_v1": 13
+ },
+ "n": 19
+}

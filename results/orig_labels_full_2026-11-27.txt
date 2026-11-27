@@ -1,0 +1,14 @@
+qwen_none CUR {'clean_correct': 30, 'comp_inj': 111, 'comp_succ': 68, 'comp_strict': 40, 'strict_all': 40} 10
+qwen_none ORG {'clean_correct': 24, 'comp_inj': 87, 'comp_succ': 55, 'comp_strict': 30, 'strict_all': 31} 8 ['C02', 'C10']
+qwen_def CUR {'clean_correct': 30, 'comp_inj': 111, 'comp_succ': 51, 'comp_strict': 55, 'strict_all': 55} 10
+qwen_def ORG {'clean_correct': 24, 'comp_inj': 87, 'comp_succ': 39, 'comp_strict': 45, 'strict_all': 47} 8 ['C02', 'C10']
+qwen_shield CUR {'clean_correct': 34, 'comp_inj': 123, 'comp_succ': 0, 'comp_strict': 78, 'strict_all': 81} 11
+qwen_shield ORG {'clean_correct': 28, 'comp_inj': 99, 'comp_succ': 0, 'comp_strict': 66, 'strict_all': 75} 9 ['C02', 'C10']
+phi4_none CUR {'clean_correct': 27, 'comp_inj': 99, 'comp_succ': 37, 'comp_strict': 50, 'strict_all': 51} 9
+phi4_none ORG {'clean_correct': 21, 'comp_inj': 75, 'comp_succ': 24, 'comp_strict': 43, 'strict_all': 44} 7 ['C02', 'C10']
+phi4_def CUR {'clean_correct': 27, 'comp_inj': 99, 'comp_succ': 21, 'comp_strict': 76, 'strict_all': 78} 9
+phi4_def ORG {'clean_correct': 21, 'comp_inj': 75, 'comp_succ': 15, 'comp_strict': 59, 'strict_all': 62} 7 ['C02', 'C10']
+llama_none CUR {'clean_correct': 3, 'comp_inj': 9, 'comp_succ': 1, 'comp_strict': 3, 'strict_all': 5} 1
+llama_none ORG {'clean_correct': 3, 'comp_inj': 9, 'comp_succ': 1, 'comp_strict': 3, 'strict_all': 5} 1 []
+llama_def CUR {'clean_correct': 0, 'comp_inj': 0, 'comp_succ': 0, 'comp_strict': 0, 'strict_all': 0} 0
+llama_def ORG {'clean_correct': 0, 'comp_inj': 0, 'comp_succ': 0, 'comp_strict': 0, 'strict_all': 0} 0 []

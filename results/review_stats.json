@@ -1,0 +1,372 @@
+{
+ "paired_defence": {
+  "qwen": {
+   "n": 135,
+   "n11": 70,
+   "n10": 21,
+   "n01": 3,
+   "n00": 41,
+   "asr_none": 91,
+   "asr_def": 73,
+   "diff_pct": 13.3,
+   "mcnemar_p": 0.0003,
+   "case_signflip_p": 0.0103,
+   "cases_pos": 10,
+   "cases_neg": 2,
+   "cases_zero": 0,
+   "cluster_ci": [
+    6.1,
+    19.7
+   ]
+  },
+  "llama": {
+   "n": 135,
+   "n11": 68,
+   "n10": 17,
+   "n01": 10,
+   "n00": 40,
+   "asr_none": 85,
+   "asr_def": 78,
+   "diff_pct": 5.2,
+   "mcnemar_p": 0.2478,
+   "case_signflip_p": 0.2031,
+   "cases_pos": 6,
+   "cases_neg": 1,
+   "cases_zero": 5,
+   "cluster_ci": [
+    -0.8,
+    11.1
+   ]
+  },
+  "phi4": {
+   "n": 135,
+   "n11": 37,
+   "n10": 21,
+   "n01": 7,
+   "n00": 70,
+   "asr_none": 58,
+   "asr_def": 44,
+   "diff_pct": 10.4,
+   "mcnemar_p": 0.0125,
+   "case_signflip_p": 0.0498,
+   "cases_pos": 9,
+   "cases_neg": 2,
+   "cases_zero": 1,
+   "cluster_ci": [
+    2.3,
+    17.7
+   ]
+  }
+ },
+ "competent": {
+  "qwen_none": {
+   "all3": {
+    "cases": [
+     "C01",
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 10,
+    "n_injected": 111,
+    "attack_success": 68,
+    "asr": [
+     61.3,
+     52.0,
+     69.8
+    ],
+    "strict_correct": 40,
+    "deteriorated": 71
+   },
+   "any": {
+    "cases": [
+     "C01",
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 10,
+    "n_injected": 111,
+    "attack_success": 68,
+    "asr": [
+     61.3,
+     52.0,
+     69.8
+    ],
+    "strict_correct": 40,
+    "deteriorated": 71
+   }
+  },
+  "qwen_def": {
+   "all3": {
+    "cases": [
+     "C01",
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 10,
+    "n_injected": 111,
+    "attack_success": 51,
+    "asr": [
+     45.9,
+     37.0,
+     55.2
+    ],
+    "strict_correct": 55,
+    "deteriorated": 56
+   },
+   "any": {
+    "cases": [
+     "C01",
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 10,
+    "n_injected": 111,
+    "attack_success": 51,
+    "asr": [
+     45.9,
+     37.0,
+     55.2
+    ],
+    "strict_correct": 55,
+    "deteriorated": 56
+   }
+  },
+  "qwen_shield": {
+   "all3": {
+    "cases": [
+     "C01",
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C08",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 11,
+    "n_injected": 123,
+    "attack_success": 0,
+    "asr": [
+     0.0,
+     0,
+     3.0
+    ],
+    "strict_correct": 78,
+    "deteriorated": 45
+   },
+   "any": {
+    "cases": [
+     "C01",
+     "C02",
+     "C03",
+     "C04",
+     "C05",
+     "C06",
+     "C07",
+     "C08",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 12,
+    "n_injected": 135,
+    "attack_success": 0,
+    "asr": [
+     0.0,
+     0.0,
+     2.8
+    ],
+    "strict_correct": 81,
+    "deteriorated": 54
+   }
+  },
+  "llama_none": {
+   "all3": {
+    "cases": [
+     "C06"
+    ],
+    "n_cases": 1,
+    "n_injected": 9,
+    "attack_success": 1,
+    "asr": [
+     11.1,
+     2.0,
+     43.5
+    ],
+    "strict_correct": 3,
+    "deteriorated": 6
+   },
+   "any": {
+    "cases": [
+     "C06"
+    ],
+    "n_cases": 1,
+    "n_injected": 9,
+    "attack_success": 1,
+    "asr": [
+     11.1,
+     2.0,
+     43.5
+    ],
+    "strict_correct": 3,
+    "deteriorated": 6
+   }
+  },
+  "llama_def": {
+   "all3": {
+    "cases": [],
+    "n_cases": 0,
+    "n_injected": 0,
+    "attack_success": 0,
+    "asr": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "strict_correct": 0,
+    "deteriorated": 0
+   },
+   "any": {
+    "cases": [],
+    "n_cases": 0,
+    "n_injected": 0,
+    "attack_success": 0,
+    "asr": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "strict_correct": 0,
+    "deteriorated": 0
+   }
+  },
+  "phi4_none": {
+   "all3": {
+    "cases": [
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 9,
+    "n_injected": 99,
+    "attack_success": 37,
+    "asr": [
+     37.4,
+     28.5,
+     47.2
+    ],
+    "strict_correct": 50,
+    "deteriorated": 49
+   },
+   "any": {
+    "cases": [
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 9,
+    "n_injected": 99,
+    "attack_success": 37,
+    "asr": [
+     37.4,
+     28.5,
+     47.2
+    ],
+    "strict_correct": 50,
+    "deteriorated": 49
+   }
+  },
+  "phi4_def": {
+   "all3": {
+    "cases": [
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 9,
+    "n_injected": 99,
+    "attack_success": 21,
+    "asr": [
+     21.2,
+     14.3,
+     30.3
+    ],
+    "strict_correct": 76,
+    "deteriorated": 23
+   },
+   "any": {
+    "cases": [
+     "C02",
+     "C03",
+     "C05",
+     "C06",
+     "C07",
+     "C09",
+     "C10",
+     "C11",
+     "C12"
+    ],
+    "n_cases": 9,
+    "n_injected": 99,
+    "attack_success": 21,
+    "asr": [
+     21.2,
+     14.3,
+     30.3
+    ],
+    "strict_correct": 76,
+    "deteriorated": 23
+   }
+  }
+ }
+}
